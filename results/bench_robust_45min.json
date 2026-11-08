@@ -1,0 +1,174 @@
+{
+ "rows": [
+  {
+   "scenario": "gen_000_57f.json",
+   "solution_aerogate": 126.3
+  },
+  {
+   "scenario": "gen_001_77f.json",
+   "solution_aerogate": 77.7
+  },
+  {
+   "scenario": "gen_002_24f.json",
+   "solution_aerogate": 47.0
+  },
+  {
+   "scenario": "gen_003_35f.json",
+   "solution_aerogate": 67.60000000000001
+  },
+  {
+   "scenario": "gen_004_63f.json",
+   "solution_aerogate": 127.9
+  },
+  {
+   "scenario": "gen_005_18f.json",
+   "solution_aerogate": 31.3
+  },
+  {
+   "scenario": "gen_006_70f.json",
+   "solution_aerogate": 169.1
+  },
+  {
+   "scenario": "gen_007_53f.json",
+   "solution_aerogate": 89.1
+  },
+  {
+   "scenario": "gen_008_83f.json",
+   "solution_aerogate": 105.5
+  },
+  {
+   "scenario": "gen_009_89f.json",
+   "solution_aerogate": 154.7
+  },
+  {
+   "scenario": "gen_010_78f.json",
+   "solution_aerogate": 115.5
+  },
+  {
+   "scenario": "gen_011_31f.json",
+   "solution_aerogate": 40.8
+  },
+  {
+   "scenario": "gen_012_12f.json",
+   "solution_aerogate": 31.5
+  },
+  {
+   "scenario": "gen_013_70f.json",
+   "solution_aerogate": 109.4
+  },
+  {
+   "scenario": "gen_014_34f.json",
+   "solution_aerogate": 138.0
+  },
+  {
+   "scenario": "gen_015_24f.json",
+   "solution_aerogate": 49.300000000000004
+  },
+  {
+   "scenario": "gen_016_16f.json",
+   "solution_aerogate": 95.3
+  },
+  {
+   "scenario": "gen_017_27f.json",
+   "solution_aerogate": 69.0
+  },
+  {
+   "scenario": "gen_018_36f.json",
+   "solution_aerogate": 136.20000000000002
+  },
+  {
+   "scenario": "gen_019_81f.json",
+   "solution_aerogate": 130.5
+  },
+  {
+   "scenario": "gen_020_52f.json",
+   "solution_aerogate": 142.6
+  },
+  {
+   "scenario": "gen_021_30f.json",
+   "solution_aerogate": 51.4
+  },
+  {
+   "scenario": "gen_022_80f.json",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight AF-5184-2025-06-15 must move off gate I9: blocked by a gate outage [17:15, 23:15]. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_023_54f.json",
+   "solution_aerogate": 168.4
+  },
+  {
+   "scenario": "gen_024_35f.json",
+   "solution_aerogate": 401.2
+  },
+  {
+   "scenario": "gen_025_81f.json",
+   "solution_aerogate": 141.5
+  },
+  {
+   "scenario": "gen_026_67f.json",
+   "solution_aerogate": 75.5
+  },
+  {
+   "scenario": "gen_027_54f.json",
+   "solution_aerogate": 95.0
+  },
+  {
+   "scenario": "gen_028_85f.json",
+   "solution_aerogate": 210.5
+  },
+  {
+   "scenario": "gen_029_78f.json",
+   "solution_aerogate": 115.0
+  },
+  {
+   "scenario": "gen_030_78f.json",
+   "solution_aerogate": 189.8
+  },
+  {
+   "scenario": "gen_031_57f.json",
+   "solution_aerogate": 89.8
+  },
+  {
+   "scenario": "gen_032_78f.json",
+   "solution_aerogate": 225.4
+  },
+  {
+   "scenario": "gen_033_18f.json",
+   "solution_aerogate": 36.0
+  },
+  {
+   "scenario": "gen_034_85f.json",
+   "solution_aerogate": 126.8
+  },
+  {
+   "scenario": "gen_035_15f.json",
+   "solution_aerogate": 33.7
+  },
+  {
+   "scenario": "gen_036_85f.json",
+   "solution_aerogate": 186.0
+  },
+  {
+   "scenario": "gen_037_67f.json",
+   "solution_aerogate": 111.7
+  },
+  {
+   "scenario": "gen_038_76f.json",
+   "solution_aerogate": 145.20000000000002
+  },
+  {
+   "scenario": "gen_039_12f.json",
+   "solution_aerogate": 15.999999999999998
+  }
+ ],
+ "totals": {
+  "solution_aerogate": 4473.200000000001
+ },
+ "fails": {
+  "solution_aerogate": 1
+ },
+ "seconds": {
+  "solution_aerogate": 276.70366769999964
+ }
+}

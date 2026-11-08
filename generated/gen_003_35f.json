@@ -1,0 +1,1161 @@
+{
+ "0500": [
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AA",
+    "flightNumber": "6802",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "321",
+     "departureStation": "YVR",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "09:25",
+     "scheduledArrivalTime": "10:55"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "321",
+     "departureStation": "YYZ",
+     "arrivalStation": "YVR",
+     "scheduledDepartureTime": "12:25",
+     "scheduledArrivalTime": "13:55"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "BA",
+    "flightNumber": "211",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "333",
+     "departureStation": "SFO",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "05:30",
+     "scheduledArrivalTime": "07:10"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AA",
+    "flightNumber": "2964",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YYC",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "17:35",
+     "scheduledArrivalTime": "18:55"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YVR",
+     "scheduledDepartureTime": "19:55",
+     "scheduledArrivalTime": "21:15"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YVR",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "22:15",
+     "scheduledArrivalTime": "23:35"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YYC",
+     "scheduledDepartureTime": "00:35",
+     "scheduledArrivalTime": "01:55"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AF",
+    "flightNumber": "3475",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "7M8",
+     "departureStation": "YQB",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "18:45",
+     "scheduledArrivalTime": "20:15"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "7M8",
+     "departureStation": "YYZ",
+     "arrivalStation": "YQB",
+     "scheduledDepartureTime": "22:15",
+     "scheduledArrivalTime": "23:45"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "KL",
+    "flightNumber": "3252",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "7M8",
+     "departureStation": "JFK",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "20:00",
+     "scheduledArrivalTime": "22:00"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "7M8",
+     "departureStation": "YYZ",
+     "arrivalStation": "JFK",
+     "scheduledDepartureTime": "06:35",
+     "scheduledArrivalTime": "08:30"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AF",
+    "flightNumber": "9317",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "333",
+     "departureStation": "SFO",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "07:25",
+     "scheduledArrivalTime": "09:05"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "PD",
+    "flightNumber": "1794",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YYJ",
+     "scheduledDepartureTime": "11:10",
+     "scheduledArrivalTime": "12:50"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AC",
+    "flightNumber": "768",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "321",
+     "departureStation": "YYZ",
+     "arrivalStation": "FRA",
+     "scheduledDepartureTime": "18:40",
+     "scheduledArrivalTime": "20:20"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "LH",
+    "flightNumber": "6254",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "77W",
+     "departureStation": "NRT",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "04:40",
+     "scheduledArrivalTime": "06:10"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "77W",
+     "departureStation": "YYZ",
+     "arrivalStation": "NRT",
+     "scheduledDepartureTime": "06:55",
+     "scheduledArrivalTime": "08:25"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "EK",
+    "flightNumber": "9979",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YVR",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "14:05",
+     "scheduledArrivalTime": "15:45"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "UA",
+    "flightNumber": "3573",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "7M8",
+     "departureStation": "LHR",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "17:55",
+     "scheduledArrivalTime": "19:25"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "7M8",
+     "departureStation": "YYZ",
+     "arrivalStation": "LHR",
+     "scheduledDepartureTime": "20:10",
+     "scheduledArrivalTime": "21:40"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AC",
+    "flightNumber": "3451",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "77W",
+     "departureStation": "YUL",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "12:35",
+     "scheduledArrivalTime": "14:05"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "77W",
+     "departureStation": "YYZ",
+     "arrivalStation": "YUL",
+     "scheduledDepartureTime": "17:05",
+     "scheduledArrivalTime": "18:35"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "PD",
+    "flightNumber": "7780",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "E75",
+     "departureStation": "YUL",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "11:40",
+     "scheduledArrivalTime": "13:10"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "E75",
+     "departureStation": "YYZ",
+     "arrivalStation": "YUL",
+     "scheduledDepartureTime": "15:40",
+     "scheduledArrivalTime": "17:10"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "KL",
+    "flightNumber": "1982",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "321",
+     "departureStation": "CDG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "07:40",
+     "scheduledArrivalTime": "09:10"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "321",
+     "departureStation": "YYZ",
+     "arrivalStation": "CDG",
+     "scheduledDepartureTime": "12:10",
+     "scheduledArrivalTime": "13:40"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "BA",
+    "flightNumber": "4060",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "789",
+     "departureStation": "CDG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "14:50",
+     "scheduledArrivalTime": "16:20"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "789",
+     "departureStation": "YYZ",
+     "arrivalStation": "CDG",
+     "scheduledDepartureTime": "17:20",
+     "scheduledArrivalTime": "18:50"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "LH",
+    "flightNumber": "2481",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "321",
+     "departureStation": "YYZ",
+     "arrivalStation": "CDG",
+     "scheduledDepartureTime": "07:45",
+     "scheduledArrivalTime": "09:25"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "UA",
+    "flightNumber": "2067",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "77W",
+     "departureStation": "YUL",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "17:10",
+     "scheduledArrivalTime": "18:40"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "77W",
+     "departureStation": "YYZ",
+     "arrivalStation": "YUL",
+     "scheduledDepartureTime": "20:10",
+     "scheduledArrivalTime": "21:40"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "PD",
+    "flightNumber": "4060",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "333",
+     "departureStation": "YYZ",
+     "arrivalStation": "NRT",
+     "scheduledDepartureTime": "09:10",
+     "scheduledArrivalTime": "10:50"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "WS",
+    "flightNumber": "7571",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YVR",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "13:55",
+     "scheduledArrivalTime": "15:15"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YWG",
+     "scheduledDepartureTime": "16:15",
+     "scheduledArrivalTime": "17:35"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YWG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "18:35",
+     "scheduledArrivalTime": "19:55"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YVR",
+     "scheduledDepartureTime": "20:55",
+     "scheduledArrivalTime": "22:15"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AA",
+    "flightNumber": "5423",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YWG",
+     "scheduledDepartureTime": "20:30",
+     "scheduledArrivalTime": "22:10"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "LH",
+    "flightNumber": "9346",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "7M8",
+     "departureStation": "YYC",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "16:35",
+     "scheduledArrivalTime": "18:05"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "7M8",
+     "departureStation": "YYZ",
+     "arrivalStation": "YYC",
+     "scheduledDepartureTime": "19:20",
+     "scheduledArrivalTime": "20:50"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AF",
+    "flightNumber": "7490",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YVR",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "17:05",
+     "scheduledArrivalTime": "18:35"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YVR",
+     "scheduledDepartureTime": "19:50",
+     "scheduledArrivalTime": "21:20"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "DL",
+    "flightNumber": "4109",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "7M8",
+     "departureStation": "YWG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "17:35",
+     "scheduledArrivalTime": "19:05"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "7M8",
+     "departureStation": "YYZ",
+     "arrivalStation": "YWG",
+     "scheduledDepartureTime": "20:35",
+     "scheduledArrivalTime": "22:05"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AC",
+    "flightNumber": "9042",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "E75",
+     "departureStation": "YEG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "15:15",
+     "scheduledArrivalTime": "16:55"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "FX",
+    "flightNumber": "5333",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "76F",
+     "departureStation": "YYZ",
+     "arrivalStation": "LHR",
+     "scheduledDepartureTime": "14:25",
+     "scheduledArrivalTime": "16:05"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "LH",
+    "flightNumber": "1518",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "77W",
+     "departureStation": "CDG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "19:40",
+     "scheduledArrivalTime": "21:10"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "77W",
+     "departureStation": "YYZ",
+     "arrivalStation": "CDG",
+     "scheduledDepartureTime": "23:10",
+     "scheduledArrivalTime": "00:40"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AC",
+    "flightNumber": "5394",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "7M8",
+     "departureStation": "YQB",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "13:15",
+     "scheduledArrivalTime": "14:55"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "BA",
+    "flightNumber": "4107",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "E75",
+     "departureStation": "YYZ",
+     "arrivalStation": "YQB",
+     "scheduledDepartureTime": "10:05",
+     "scheduledArrivalTime": "11:45"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "KL",
+    "flightNumber": "5962",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "DXB",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "11:45",
+     "scheduledArrivalTime": "13:15"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "DXB",
+     "scheduledDepartureTime": "14:15",
+     "scheduledArrivalTime": "15:45"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "PD",
+    "flightNumber": "8265",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "321",
+     "departureStation": "YYC",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "19:30",
+     "scheduledArrivalTime": "21:00"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "321",
+     "departureStation": "YYZ",
+     "arrivalStation": "YYC",
+     "scheduledDepartureTime": "22:15",
+     "scheduledArrivalTime": "23:45"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "KL",
+    "flightNumber": "8878",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "321",
+     "departureStation": "YYZ",
+     "arrivalStation": "YHZ",
+     "scheduledDepartureTime": "18:45",
+     "scheduledArrivalTime": "20:25"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "FX",
+    "flightNumber": "2326",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "77F",
+     "departureStation": "YYJ",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "16:05",
+     "scheduledArrivalTime": "17:35"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "77F",
+     "departureStation": "YYZ",
+     "arrivalStation": "YYJ",
+     "scheduledDepartureTime": "19:05",
+     "scheduledArrivalTime": "20:35"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "DL",
+    "flightNumber": "5712",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YYJ",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "21:25",
+     "scheduledArrivalTime": "23:25"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YYJ",
+     "scheduledDepartureTime": "07:35",
+     "scheduledArrivalTime": "08:30"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AA",
+    "flightNumber": "5182",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "7M8",
+     "departureStation": "AMS",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "20:00",
+     "scheduledArrivalTime": "22:00"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "7M8",
+     "departureStation": "YYZ",
+     "arrivalStation": "AMS",
+     "scheduledDepartureTime": "06:50",
+     "scheduledArrivalTime": "08:30"
+    }
+   ]
+  },
+  {
+   "action": "CreateFlight",
+   "flight": {
+    "carrier": "AC",
+    "flightNumber": "3857",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YEG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "13:40",
+     "scheduledArrivalTime": "15:10"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YEG",
+     "scheduledDepartureTime": "16:10",
+     "scheduledArrivalTime": "17:40"
+    }
+   ]
+  }
+ ],
+ "0730": [
+  {
+   "action": "CancelFlight",
+   "flight": {
+    "carrier": "KL",
+    "flightNumber": "1982",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "cancelScope": {
+    "type": "AllLegs"
+   }
+  }
+ ],
+ "0815": [
+  {
+   "action": "UpdateTiming",
+   "flight": {
+    "carrier": "BA",
+    "flightNumber": "4107",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "E75",
+     "departureStation": "YYZ",
+     "arrivalStation": "YQB",
+     "scheduledDepartureTime": "11:05",
+     "scheduledArrivalTime": "12:45"
+    }
+   ]
+  }
+ ],
+ "0900": [
+  {
+   "action": "DivertFlight",
+   "reason": "turnback",
+   "flight": {
+    "carrier": "FX",
+    "flightNumber": "29",
+    "flightSuffix": "D",
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "321",
+     "departureStation": "CDG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "08:05",
+     "scheduledArrivalTime": "09:15"
+    }
+   ]
+  }
+ ],
+ "1130": [
+  {
+   "action": "UpdateTiming",
+   "flight": {
+    "carrier": "PD",
+    "flightNumber": "7780",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "E75",
+     "departureStation": "YUL",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "11:40",
+     "scheduledArrivalTime": "13:10"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "E75",
+     "departureStation": "YYZ",
+     "arrivalStation": "YUL",
+     "scheduledDepartureTime": "17:10",
+     "scheduledArrivalTime": "18:40"
+    }
+   ]
+  }
+ ],
+ "1200": [
+  {
+   "action": "UpdateEquipment",
+   "flight": {
+    "carrier": "AC",
+    "flightNumber": "3451",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "equipmentUpdate": {
+    "scope": "AllLegs",
+    "aircraftType": "77W"
+   }
+  }
+ ],
+ "1300": [
+  {
+   "action": "UpdateTiming",
+   "flight": {
+    "carrier": "AC",
+    "flightNumber": "3857",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YEG",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "13:40",
+     "scheduledArrivalTime": "15:10"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YEG",
+     "scheduledDepartureTime": "17:40",
+     "scheduledArrivalTime": "19:10"
+    }
+   ]
+  }
+ ],
+ "1430": [
+  {
+   "action": "UpdateTiming",
+   "flight": {
+    "carrier": "AC",
+    "flightNumber": "768",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "321",
+     "departureStation": "YYZ",
+     "arrivalStation": "FRA",
+     "scheduledDepartureTime": "19:10",
+     "scheduledArrivalTime": "20:50"
+    }
+   ]
+  }
+ ],
+ "1630": [
+  {
+   "action": "DivertFlight",
+   "reason": "medical",
+   "flight": {
+    "carrier": "AA",
+    "flightNumber": "73",
+    "flightSuffix": "R",
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "77W",
+     "departureStation": "DXB",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "16:05",
+     "scheduledArrivalTime": "17:15"
+    }
+   ]
+  }
+ ],
+ "1800": [
+  {
+   "action": "CancelFlight",
+   "flight": {
+    "carrier": "PD",
+    "flightNumber": "8265",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "cancelScope": {
+    "type": "SpecificLeg",
+    "departureStation": "YYZ",
+    "arrivalStation": "YYC"
+   }
+  }
+ ],
+ "1815": [
+  {
+   "action": "UpdateTiming",
+   "flight": {
+    "carrier": "AA",
+    "flightNumber": "2964",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "73G",
+     "departureStation": "YYC",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "17:35",
+     "scheduledArrivalTime": "18:55"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YVR",
+     "scheduledDepartureTime": "21:25",
+     "scheduledArrivalTime": "22:45"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YVR",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "23:45",
+     "scheduledArrivalTime": "01:05"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "73G",
+     "departureStation": "YYZ",
+     "arrivalStation": "YYC",
+     "scheduledDepartureTime": "02:05",
+     "scheduledArrivalTime": "03:25"
+    }
+   ]
+  }
+ ],
+ "1900": [
+  {
+   "action": "GateOutage",
+   "gate": "I1",
+   "scheduledStartTime": "19:00",
+   "scheduledEndTime": "01:00"
+  },
+  {
+   "action": "UpdateTiming",
+   "flight": {
+    "carrier": "AA",
+    "flightNumber": "5182",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "legs": [
+    {
+     "legType": "Originating",
+     "aircraftType": "7M8",
+     "departureStation": "AMS",
+     "arrivalStation": "YYZ",
+     "scheduledDepartureTime": "19:50",
+     "scheduledArrivalTime": "21:50"
+    },
+    {
+     "legType": "Through",
+     "aircraftType": "7M8",
+     "departureStation": "YYZ",
+     "arrivalStation": "AMS",
+     "scheduledDepartureTime": "06:40",
+     "scheduledArrivalTime": "08:20"
+    }
+   ]
+  }
+ ],
+ "2115": [
+  {
+   "action": "UpdateEquipment",
+   "flight": {
+    "carrier": "KL",
+    "flightNumber": "3252",
+    "flightSuffix": null,
+    "originatingDate": "2025-06-15"
+   },
+   "equipmentUpdate": {
+    "scope": "AllLegs",
+    "aircraftType": "7M8"
+   }
+  }
+ ]
+}

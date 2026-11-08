@@ -1,0 +1,312 @@
+{
+ "rows": [
+  {
+   "scenario": "gen_000_27f.json",
+   "solution_firstfit": 81.60000000000001,
+   "solution_scored": 80.8,
+   "solution_aerogate": 128.3
+  },
+  {
+   "scenario": "gen_001_57f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight LH-7570-2025-06-15 must move off gate I5: blocked by a gate outage [07:30, 00:00+7d]. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight DL-9382-2025-06-15 must move off gate I5: blocked by a gate outage [07:30, 00:00+7d]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight PD-1750-2025-06-15 must move off gate I5: blocked by a gate outage [07:30, 00:00+7d]. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_002_86f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight FX-7520-2025-06-15 must move off gate C1: blocked by flight KL-4935-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight FX-7520-2025-06-15 must move off gate C1: blocked by flight KL-4935-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight FX-4689-2025-06-15 must move off gate C1: blocked by flight FX-5707-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_003_49f.json",
+   "solution_firstfit": 220.20000000000002,
+   "solution_scored": 135.3,
+   "solution_aerogate": 132.6
+  },
+  {
+   "scenario": "gen_004_71f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight FX-3481-2025-06-15 must move off gate C1: blocked by a gate outage [11:00, 12:00]. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight FX-3481-2025-06-15 must move off gate C1: blocked by a gate outage [11:00, 12:00]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight FX-853-2025-06-15 must move off gate C1: blocked by a gate outage [11:00, 12:00]. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_005_27f.json",
+   "solution_firstfit": 267.9,
+   "solution_scored": 256.9,
+   "solution_aerogate": 256.9
+  },
+  {
+   "scenario": "gen_006_61f.json",
+   "solution_firstfit": 469.3,
+   "solution_scored": 443.8,
+   "solution_aerogate": 334.6
+  },
+  {
+   "scenario": "gen_007_56f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight FX-2232-2025-06-15 must move off gate C1: blocked by a gate outage [11:00, 00:00+7d]. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight FX-2232-2025-06-15 must move off gate C1: blocked by a gate outage [11:00, 00:00+7d]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight FX-3292-2025-06-15 must move off gate C2: blocked by a gate outage [10:00, 11:00]. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_008_69f.json",
+   "solution_firstfit": 604.1,
+   "solution_scored": 620.4,
+   "solution_aerogate": 613.4
+  },
+  {
+   "scenario": "gen_009_63f.json",
+   "solution_firstfit": 333.8,
+   "solution_scored": 294.5,
+   "solution_aerogate": 281.4
+  },
+  {
+   "scenario": "gen_010_46f.json",
+   "solution_firstfit": 267.0,
+   "solution_scored": 233.9,
+   "solution_aerogate": 180.7
+  },
+  {
+   "scenario": "gen_011_41f.json",
+   "solution_firstfit": 254.3,
+   "solution_scored": 229.3,
+   "solution_aerogate": 233.2
+  },
+  {
+   "scenario": "gen_012_57f.json",
+   "solution_firstfit": 175.3,
+   "solution_scored": 148.9,
+   "solution_aerogate": 163.6
+  },
+  {
+   "scenario": "gen_013_20f.json",
+   "solution_firstfit": 56.800000000000004,
+   "solution_scored": 48.800000000000004,
+   "solution_aerogate": 48.800000000000004
+  },
+  {
+   "scenario": "gen_014_57f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight FX-2897-2025-06-15 must move off gate C1: blocked by flight FX-3893-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight FX-2897-2025-06-15 must move off gate C1: blocked by flight FX-3893-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight FX-2897-2025-06-15 must move off gate C1: blocked by flight FX-3893-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_015_29f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight LH-2854-2025-06-15 must move off gate I3: blocked by a gate outage [17:00, 00:00+7d]. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight LH-2854-2025-06-15 must move off gate I3: blocked by a gate outage [17:00, 00:00+7d]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight AC-2968-2025-06-15 must move off gate I3: blocked by a gate outage [14:30, 20:30]. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_016_90f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight FX-2075-2025-06-15 must move off gate C1: blocked by flight AA-3205-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight FX-2075-2025-06-15 must move off gate C1: blocked by flight AA-3205-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": 443.7
+  },
+  {
+   "scenario": "gen_017_65f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight AC-9236-2025-06-15 must move off gate I1: blocked by a gate outage [13:15, 17:15]. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight AC-8472-2025-06-15 must move off gate I1: blocked by a gate outage [13:15, 17:15]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight AC-8472-2025-06-15 must move off gate I1: blocked by a gate outage [13:15, 17:15]. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_018_63f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight LH-7474-2025-06-15 must move off gate I1: blocked by flight EK-3172-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight LH-7474-2025-06-15 must move off gate I5: blocked by flight WS-7929-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": 657.9
+  },
+  {
+   "scenario": "gen_019_67f.json",
+   "solution_firstfit": 390.0,
+   "solution_scored": 371.3,
+   "solution_aerogate": 271.6
+  },
+  {
+   "scenario": "gen_020_48f.json",
+   "solution_firstfit": 111.0,
+   "solution_scored": 67.8,
+   "solution_aerogate": 65.6
+  },
+  {
+   "scenario": "gen_021_26f.json",
+   "solution_firstfit": 76.10000000000001,
+   "solution_scored": 69.7,
+   "solution_aerogate": 62.400000000000006
+  },
+  {
+   "scenario": "gen_022_36f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight WS-7056-2025-06-15 must move off gate I1: blocked by flight AA-4326-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": 589.8,
+   "solution_aerogate": 594.1
+  },
+  {
+   "scenario": "gen_023_70f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight AF-4389-2025-06-15 must move off gate I11: blocked by flight AA-8460-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight AF-4389-2025-06-15 must move off gate I11: blocked by flight AA-8460-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight LH-1293-2025-06-15 must move off gate I11: blocked by flight EK-7743-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_024_88f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight AF-6288-2025-06-15 must move off gate I5: blocked by flight PD-1325-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight FX-3143-2025-06-15 must move off gate C1: blocked by a gate outage [11:00, 00:00+7d]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight KL-3112-2025-06-15 must move off gate C1: blocked by flight FX-4278-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_025_31f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight FX-6186-2025-06-15 must move off gate C1: blocked by a gate outage [13:00, 19:00]. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight FX-6186-2025-06-15 must move off gate C1: blocked by a gate outage [13:00, 19:00]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight FX-6186-2025-06-15 must move off gate C1: blocked by a gate outage [13:00, 19:00]. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_026_77f.json",
+   "solution_firstfit": 507.79999999999995,
+   "solution_scored": 224.1,
+   "solution_aerogate": 332.7
+  },
+  {
+   "scenario": "gen_027_38f.json",
+   "solution_firstfit": 1108.3,
+   "solution_scored": null,
+   "solution_scored_reason": "Flight DL-5553-2025-06-15 must move off gate I2: blocked by a gate outage [09:30, 13:30]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight AA-1711-2025-06-15 must move off gate I1: blocked by flight DL-5871-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_028_56f.json",
+   "solution_firstfit": 415.0,
+   "solution_scored": 310.3,
+   "solution_aerogate": 309.8
+  },
+  {
+   "scenario": "gen_029_82f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight FX-7609-2025-06-15 must move off gate C1: blocked by flight FX-3883-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight FX-7609-2025-06-15 must move off gate C1: blocked by flight FX-3883-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight FX-7609-2025-06-15 must move off gate C1: blocked by flight FX-2866-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_030_36f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight EK-3321-2025-06-15 must move off gate I1: blocked by flight AA-8051-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight EK-3321-2025-06-15 must move off gate I1: blocked by flight AA-8051-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight EK-3321-2025-06-15 must move off gate I1: blocked by flight AA-8051-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_031_12f.json",
+   "solution_firstfit": 32.0,
+   "solution_scored": 27.900000000000002,
+   "solution_aerogate": 27.900000000000002
+  },
+  {
+   "scenario": "gen_032_23f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight WS-7439-2025-06-15 must move off gate I3: blocked by a gate outage [15:15, 19:15]. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight WS-7439-2025-06-15 must move off gate I3: blocked by a gate outage [15:15, 19:15]. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight KL-379-2025-06-15 must move off gate I3: blocked by flight PD-4329-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_033_61f.json",
+   "solution_firstfit": 402.8,
+   "solution_scored": 427.5,
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight AC-5259-2025-06-15 must move off gate C2: blocked by a gate outage [22:00, 04:00+1d]. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_034_57f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight WS-7069-2025-06-15 must move off gate I6: blocked by flight BA-6341-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": 86.0,
+   "solution_aerogate": 185.9
+  },
+  {
+   "scenario": "gen_035_42f.json",
+   "solution_firstfit": 602.5,
+   "solution_scored": 335.4,
+   "solution_aerogate": 352.7
+  },
+  {
+   "scenario": "gen_036_14f.json",
+   "solution_firstfit": 340.2,
+   "solution_scored": 240.5,
+   "solution_aerogate": 239.1
+  },
+  {
+   "scenario": "gen_037_86f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight DL-2214-2025-06-15 must move off gate I9: blocked by a gate outage [14:00, 00:00+7d]. Solution must reassign it via the reassignments list.",
+   "solution_scored": 718.5,
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight UA-6005-2025-06-15 must move off gate C1: blocked by flight FX-6426-2025-06-15. Solution must reassign it via the reassignments list."
+  },
+  {
+   "scenario": "gen_038_40f.json",
+   "solution_firstfit": 423.4,
+   "solution_scored": 413.7,
+   "solution_aerogate": 361.0
+  },
+  {
+   "scenario": "gen_039_41f.json",
+   "solution_firstfit": null,
+   "solution_firstfit_reason": "Flight WS-4207-2025-06-15 must move off gate C1: blocked by flight FX-5220-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_scored": null,
+   "solution_scored_reason": "Flight WS-4207-2025-06-15 must move off gate C2: blocked by flight FX-5220-2025-06-15. Solution must reassign it via the reassignments list.",
+   "solution_aerogate": null,
+   "solution_aerogate_reason": "Flight WS-4207-2025-06-15 must move off gate C2: blocked by flight FX-6678-2025-06-15. Solution must reassign it via the reassignments list."
+  }
+ ],
+ "totals": {
+  "solution_firstfit": 7139.4,
+  "solution_scored": 6375.099999999999,
+  "solution_aerogate": 6277.9
+ },
+ "fails": {
+  "solution_firstfit": 19,
+  "solution_scored": 17,
+  "solution_aerogate": 17
+ },
+ "seconds": {
+  "solution_firstfit": 1.5181414999988192,
+  "solution_scored": 0.6821818999997049,
+  "solution_aerogate": 126.93718020000233
+ }
+}

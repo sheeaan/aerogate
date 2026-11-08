@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="gate-assignment-final" name="Final Polished Flow">
+    <mxGraphModel dx="1720" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f7f9fb;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="900" width="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="header" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#17365d;strokeColor=#17365d;fontColor=#ffffff;fontSize=28;fontStyle=1;shadow=0;align=center;verticalAlign=middle;" value="Gate Assignment Algorithm" vertex="1">
+          <mxGeometry height="86" width="1420" x="90" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#ffffff;" value="High-level flow of solution.py: maintain local gate state, fix changed flights first, then assign waiting flights." vertex="1">
+          <mxGeometry height="22" width="1190" x="205" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="panel" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6dee6;shadow=1;" value="" vertex="1">
+          <mxGeometry height="390" width="1420" x="90" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365d;" value="Main Decision Flow" vertex="1">
+          <mxGeometry height="30" width="320" x="125" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#eaf3f8;strokeColor=#7da9c7;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="1&#xa;Input Observation&#xa;&#xa;waiting flights&#xa;changed flights&#xa;assigned flights&#xa;gates + bookings" vertex="1">
+          <mxGeometry height="150" width="210" x="125" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#7cb342;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="2&#xa;Build Local State&#xa;&#xa;copy current bookings&#xa;build flight_lookup&#xa;start output lists" vertex="1">
+          <mxGeometry height="150" width="210" x="400" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#efe7f6;strokeColor=#8e63a9;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="3&#xa;Resolve Changed Flights&#xa;&#xa;keep current gate if valid&#xa;otherwise reassign&#xa;try cascade if needed" vertex="1">
+          <mxGeometry height="150" width="230" x="675" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#fff4db;strokeColor=#d6a23a;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="4&#xa;Assign Waiting Flights&#xa;&#xa;find best compatible gate&#xa;try cascade fallback&#xa;log if no valid gate exists" vertex="1">
+          <mxGeometry height="150" width="230" x="970" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#7cb342;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="5&#xa;Return Output&#xa;&#xa;assignments: [...]&#xa;reassignments: [...]" vertex="1">
+          <mxGeometry height="150" width="210" x="1265" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="a12" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#4d6578;" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a23" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#4d6578;" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a34" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#4d6578;" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a45" edge="1" parent="1" source="n4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#4d6578;" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="priority" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#cc0000;fontSize=13;fontStyle=1;fontColor=#660000;align=center;verticalAlign=middle;" value="Priority Rule: changed flights are handled before new waiting flights, so disrupted existing assignments are repaired first." vertex="1">
+          <mxGeometry height="58" width="790" x="405" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="support_panel" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6dee6;shadow=1;" value="" vertex="1">
+          <mxGeometry height="270" width="1420" x="90" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="support_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365d;" value="Reusable Helper Logic" vertex="1">
+          <mxGeometry height="30" width="320" x="125" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f8fbfd;strokeColor=#b7c9d6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="Gate Window&#xa;&#xa;Find the YYZ arrival/departure window. Handles flights that cross midnight." vertex="1">
+          <mxGeometry height="115" width="245" x="125" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f8fbfd;strokeColor=#b7c9d6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="Compatibility Check&#xa;&#xa;Reject gates with the wrong aircraft type, insufficient wingspan, or missing jetbridge." vertex="1">
+          <mxGeometry height="115" width="245" x="410" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f8fbfd;strokeColor=#b7c9d6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="Time Conflict Check&#xa;&#xa;Reject gates already occupied during the same buffered gate window." vertex="1">
+          <mxGeometry height="115" width="245" x="695" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f8fbfd;strokeColor=#b7c9d6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="Gate Scoring&#xa;&#xa;Choose the lowest-score valid gate: tighter fit, shorter walk, avoid wasting jetbridges." vertex="1">
+          <mxGeometry height="115" width="245" x="980" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="h5" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#fff0f0;strokeColor=#d58c8c;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;shadow=1;" value="Cascade Move&#xa;&#xa;If a good gate is blocked, move one conflicting flight first, then use the freed gate." vertex="1">
+          <mxGeometry height="115" width="210" x="1265" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="ha12" edge="1" parent="1" source="h1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#9aaab5;" target="h2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ha23" edge="1" parent="1" source="h2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#9aaab5;" target="h3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ha34" edge="1" parent="1" source="h3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#9aaab5;" target="h4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ha45" edge="1" parent="1" source="h4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#c05046;fontSize=11;labelBackgroundColor=#ffffff;" target="h5" value="fallback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#5b5b5b;fontStyle=2;" value="Key idea: keep a local copy of the gate schedule and update it immediately after each accepted assignment or reassignment." vertex="1">
+          <mxGeometry height="30" width="1160" x="220" y="845" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

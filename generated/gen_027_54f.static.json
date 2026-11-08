@@ -1,0 +1,195 @@
+{
+ "gate_info": {
+  "C1": {
+   "gate_type": 0,
+   "max_wingspan": 80,
+   "dist": -1,
+   "jetbridge": 0
+  },
+  "C2": {
+   "gate_type": 0,
+   "max_wingspan": 65,
+   "dist": -1,
+   "jetbridge": 0
+  },
+  "D1": {
+   "gate_type": 1,
+   "max_wingspan": 80,
+   "dist": 320,
+   "jetbridge": 1
+  },
+  "D2": {
+   "gate_type": 1,
+   "max_wingspan": 52,
+   "dist": 180,
+   "jetbridge": 1
+  },
+  "D3": {
+   "gate_type": 1,
+   "max_wingspan": 36,
+   "dist": 60,
+   "jetbridge": 0
+  },
+  "D4": {
+   "gate_type": 1,
+   "max_wingspan": 45,
+   "dist": 510,
+   "jetbridge": 1
+  },
+  "D5": {
+   "gate_type": 1,
+   "max_wingspan": 36,
+   "dist": 130,
+   "jetbridge": 1
+  },
+  "D6": {
+   "gate_type": 1,
+   "max_wingspan": 45,
+   "dist": 280,
+   "jetbridge": 1
+  },
+  "D7": {
+   "gate_type": 1,
+   "max_wingspan": 52,
+   "dist": 420,
+   "jetbridge": 0
+  },
+  "D8": {
+   "gate_type": 1,
+   "max_wingspan": 80,
+   "dist": 440,
+   "jetbridge": 1
+  },
+  "I1": {
+   "gate_type": 2,
+   "max_wingspan": 80,
+   "dist": 310,
+   "jetbridge": 1
+  },
+  "I2": {
+   "gate_type": 2,
+   "max_wingspan": 65,
+   "dist": 170,
+   "jetbridge": 1
+  },
+  "I3": {
+   "gate_type": 2,
+   "max_wingspan": 36,
+   "dist": 390,
+   "jetbridge": 1
+  },
+  "I4": {
+   "gate_type": 2,
+   "max_wingspan": 65,
+   "dist": 310,
+   "jetbridge": 1
+  },
+  "I5": {
+   "gate_type": 2,
+   "max_wingspan": 65,
+   "dist": 410,
+   "jetbridge": 1
+  },
+  "I6": {
+   "gate_type": 2,
+   "max_wingspan": 45,
+   "dist": 220,
+   "jetbridge": 0
+  },
+  "I7": {
+   "gate_type": 2,
+   "max_wingspan": 36,
+   "dist": 150,
+   "jetbridge": 0
+  },
+  "I8": {
+   "gate_type": 2,
+   "max_wingspan": 80,
+   "dist": 200,
+   "jetbridge": 1
+  },
+  "I9": {
+   "gate_type": 2,
+   "max_wingspan": 52,
+   "dist": 330,
+   "jetbridge": 1
+  }
+ },
+ "aircraft_info": {
+  "E75": {
+   "name": "Embraer E175",
+   "wingspan": 26,
+   "jetbridge_required": 0,
+   "cargo": false
+  },
+  "73G": {
+   "name": "Boeing 737-700",
+   "wingspan": 36,
+   "jetbridge_required": 0,
+   "cargo": false
+  },
+  "321": {
+   "name": "Airbus A321",
+   "wingspan": 36,
+   "jetbridge_required": 0,
+   "cargo": false
+  },
+  "7M8": {
+   "name": "Boeing 737 MAX 8",
+   "wingspan": 36,
+   "jetbridge_required": 0,
+   "cargo": false
+  },
+  "333": {
+   "name": "Airbus A330-300",
+   "wingspan": 60,
+   "jetbridge_required": 1,
+   "cargo": false
+  },
+  "789": {
+   "name": "Boeing 787-9",
+   "wingspan": 60,
+   "jetbridge_required": 1,
+   "cargo": false
+  },
+  "77W": {
+   "name": "Boeing 777-300ER",
+   "wingspan": 65,
+   "jetbridge_required": 1,
+   "cargo": false
+  },
+  "76F": {
+   "name": "Boeing 767-300F (freighter)",
+   "wingspan": 48,
+   "jetbridge_required": 0,
+   "cargo": true
+  },
+  "77F": {
+   "name": "Boeing 777F (freighter)",
+   "wingspan": 65,
+   "jetbridge_required": 0,
+   "cargo": true
+  }
+ },
+ "stations": {
+  "YVR": "domestic",
+  "YUL": "domestic",
+  "YOW": "domestic",
+  "YYC": "domestic",
+  "YHZ": "domestic",
+  "YYJ": "domestic",
+  "YEG": "domestic",
+  "YWG": "domestic",
+  "YQB": "domestic",
+  "LHR": "international",
+  "CDG": "international",
+  "FRA": "international",
+  "NRT": "international",
+  "DXB": "international",
+  "JFK": "international",
+  "LAX": "international",
+  "SFO": "international",
+  "AMS": "international",
+  "ORD": "international"
+ }
+}

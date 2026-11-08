@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="gate-assignment-app-flow-final" name="Final Polished App Flow">
+    <mxGraphModel dx="2211" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f7f9fb;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="900" width="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="header" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#17365d;strokeColor=#17365d;fontColor=#ffffff;fontSize=28;fontStyle=1;shadow=0;align=center;verticalAlign=middle;" value="Gate Assignment App Flow" vertex="1">
+          <mxGeometry height="91" width="1420" x="90" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#ffffff;" value="How flight data moves from JSON inputs through the evaluator, student solution, evaluation, scoring, and final output." vertex="1">
+          <mxGeometry height="22" width="1270" x="165" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="input_panel" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6dee6;shadow=1;" value="" vertex="1">
+          <mxGeometry height="620" width="330" x="90" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="input_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365d;" value="Inputs" vertex="1">
+          <mxGeometry height="30" width="260" x="125" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="in1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#eaf3f8;strokeColor=#7da9c7;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=8;" value="Flight Messages / Schedule&#xa;&#xa;• flight number&#xa;• aircraft type&#xa;• arrival/departure times&#xa;• route and flight type" vertex="1">
+          <mxGeometry height="155" width="260" x="125" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="in2" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#eaf3f8;strokeColor=#7da9c7;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=8;" value="Gate + Aircraft Data&#xa;&#xa;• gate limits&#xa;• wingspan / size&#xa;• jet bridge availability&#xa;• domestic / international / cargo rules" vertex="1">
+          <mxGeometry height="165" width="260" x="125" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="input_note" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8fbfd;strokeColor=#b7c9d6;fontSize=12;fontColor=#4d6578;align=center;verticalAlign=middle;" value="Raw files describe the airport, flights, and operating rules." vertex="1">
+          <mxGeometry height="55" width="260" x="125" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eval_panel" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6dee6;shadow=1;" value="" vertex="1">
+          <mxGeometry height="620" width="420" x="465" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="eval_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365d;" value="Evaluator" vertex="1">
+          <mxGeometry height="30" width="310" x="520" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#7cb342;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=8;" value="1. Load + Clean Data&#xa;&#xa;Read JSON files, convert times, sort messages, and prepare flight/gate records." vertex="1">
+          <mxGeometry height="100" width="340" x="505" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="ev2" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#7cb342;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=8;" value="2. Update Simulation State&#xa;&#xa;Track known flights, waiting flights, assigned flights, changed flights, and current gate bookings." vertex="1">
+          <mxGeometry height="110" width="340" x="505" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ev3" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#7cb342;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=8;" value="3. Send Observation&#xa;&#xa;Pass the current state to the student solution: current time, waiting flights, current assignments, and recent changes." vertex="1">
+          <mxGeometry height="125" width="340" x="505" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="student_panel" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6dee6;shadow=1;" value="" vertex="1">
+          <mxGeometry height="620" width="280" x="930" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="student_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365d;" value="Student Code" vertex="1">
+          <mxGeometry height="30" width="210" x="965" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="sol" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#efe7f6;strokeColor=#8e63a9;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=10;" value="solution.py&#xa;&#xa;Read observation&#xa;choose gate assignments&#xa;choose reassignments&#xa;return dictionaries" vertex="1">
+          <mxGeometry height="220" width="210" x="965" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="student_note" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8fbfd;strokeColor=#b7c9d6;fontSize=12;fontColor=#4d6578;align=center;verticalAlign=middle;" value="Students only edit the assignment logic. The evaluator handles the simulation and checking." vertex="1">
+          <mxGeometry height="75" width="210" x="965" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="result_panel" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6dee6;shadow=1;" value="" vertex="1">
+          <mxGeometry height="620" width="255" x="1255" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="result_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365d;" value="Evaluation + Results" vertex="1">
+          <mxGeometry height="30" width="215" x="1275" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="val" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#fff4db;strokeColor=#d6a23a;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=8;" value="4. Validate Returned Assignments&#xa;&#xa;• gate exists&#xa;• no time conflict&#xa;• aircraft fits gate&#xa;• rules are respected" vertex="1">
+          <mxGeometry height="150" width="200" x="1282" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="score" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#fff4db;strokeColor=#d6a23a;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=8;" value="5. Score + Log Results&#xa;&#xa;Pass/fail checks, hard errors, soft deductions, and final score breakdown." vertex="1">
+          <mxGeometry height="130" width="200" x="1282" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="console" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#d9ead3;strokeColor=#6aa84f;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;shadow=1;spacing=8;" value="Console Output&#xa;&#xa;assignments&#xa;reassignments&#xa;errors / deductions&#xa;final score" vertex="1">
+          <mxGeometry height="120" width="200" x="1282" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="in_to_eval" edge="1" parent="1" source="in1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#4d6578;fontSize=11;labelBackgroundColor=#ffffff;" target="ev1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gate_to_eval" edge="1" parent="1" source="in2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#4d6578;fontSize=11;labelBackgroundColor=#ffffff;" target="ev1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="502" />
+              <mxPoint x="430" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ev1_ev2" edge="1" parent="1" source="ev1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#7b8a96;" target="ev2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev2_ev3" edge="1" parent="1" source="ev2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#7b8a96;" target="ev3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obs_to_solution" edge="1" parent="1" source="ev3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6a4c93;fontSize=11;labelBackgroundColor=#ffffff;" target="sol" value="observation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="solution_to_val" edge="1" parent="1" source="sol" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6a4c93;fontSize=11;labelBackgroundColor=#ffffff;" target="val" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="val_to_score" edge="1" parent="1" source="val" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#7b8a96;" target="score">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="score_to_console" edge="1" parent="1" source="score" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#7b8a96;" target="console">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#17365d;strokeColor=#17365d;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="Goal: hide the messy simulation details from students while still testing whether their solution.py can make valid, robust gate assignment decisions." vertex="1">
+          <mxGeometry height="52" width="1100" x="250" y="795" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

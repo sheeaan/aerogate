@@ -1,0 +1,123 @@
+{
+ "gate_info": {
+  "C1": {
+   "gate_type": 0,
+   "max_wingspan": 80,
+   "dist": -1,
+   "jetbridge": 0
+  },
+  "D1": {
+   "gate_type": 1,
+   "max_wingspan": 80,
+   "dist": 260,
+   "jetbridge": 1
+  },
+  "D2": {
+   "gate_type": 1,
+   "max_wingspan": 36,
+   "dist": 480,
+   "jetbridge": 0
+  },
+  "D3": {
+   "gate_type": 1,
+   "max_wingspan": 45,
+   "dist": 170,
+   "jetbridge": 0
+  },
+  "I1": {
+   "gate_type": 2,
+   "max_wingspan": 80,
+   "dist": 100,
+   "jetbridge": 1
+  },
+  "I2": {
+   "gate_type": 2,
+   "max_wingspan": 36,
+   "dist": 360,
+   "jetbridge": 1
+  },
+  "I3": {
+   "gate_type": 2,
+   "max_wingspan": 65,
+   "dist": 240,
+   "jetbridge": 1
+  }
+ },
+ "aircraft_info": {
+  "E75": {
+   "name": "Embraer E175",
+   "wingspan": 26,
+   "jetbridge_required": 0,
+   "cargo": false
+  },
+  "73G": {
+   "name": "Boeing 737-700",
+   "wingspan": 36,
+   "jetbridge_required": 0,
+   "cargo": false
+  },
+  "321": {
+   "name": "Airbus A321",
+   "wingspan": 36,
+   "jetbridge_required": 0,
+   "cargo": false
+  },
+  "7M8": {
+   "name": "Boeing 737 MAX 8",
+   "wingspan": 36,
+   "jetbridge_required": 0,
+   "cargo": false
+  },
+  "333": {
+   "name": "Airbus A330-300",
+   "wingspan": 60,
+   "jetbridge_required": 1,
+   "cargo": false
+  },
+  "789": {
+   "name": "Boeing 787-9",
+   "wingspan": 60,
+   "jetbridge_required": 1,
+   "cargo": false
+  },
+  "77W": {
+   "name": "Boeing 777-300ER",
+   "wingspan": 65,
+   "jetbridge_required": 1,
+   "cargo": false
+  },
+  "76F": {
+   "name": "Boeing 767-300F (freighter)",
+   "wingspan": 48,
+   "jetbridge_required": 0,
+   "cargo": true
+  },
+  "77F": {
+   "name": "Boeing 777F (freighter)",
+   "wingspan": 65,
+   "jetbridge_required": 0,
+   "cargo": true
+  }
+ },
+ "stations": {
+  "YVR": "domestic",
+  "YUL": "domestic",
+  "YOW": "domestic",
+  "YYC": "domestic",
+  "YHZ": "domestic",
+  "YYJ": "domestic",
+  "YEG": "domestic",
+  "YWG": "domestic",
+  "YQB": "domestic",
+  "LHR": "international",
+  "CDG": "international",
+  "FRA": "international",
+  "NRT": "international",
+  "DXB": "international",
+  "JFK": "international",
+  "LAX": "international",
+  "SFO": "international",
+  "AMS": "international",
+  "ORD": "international"
+ }
+}
