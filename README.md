@@ -102,8 +102,25 @@ On the challenge's 12 scenarios and on 40 random days from my own generator (ran
 The one failed day can't be saved by any planner: an outage hits a parked widebody while every
 compatible gate holds a parked aircraft, and the evaluator can't swap two parked aircraft.
 
-The Pearson evening below (83 flights, a thunderstorm, a jetbridge failure, a medical diversion, a
-787 swap and a cancellation), against the same rules re-planned greedily:
+The Pearson evening (83 flights, a thunderstorm, a jetbridge failure, a medical diversion, a 787 swap
+and a cancellation), against the same rules re-planned greedily:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/media/chart_compare_dark.svg">
+  <img alt="Paired bars, AeroGate vs greedy rules: flights held on the tarmac 3 vs 11, minutes held 70 vs 320, passenger-hours held 234 vs 1,320, score 301.2 vs 377.9" src="docs/media/chart_compare_light.svg">
+</picture>
+
+AeroGate spends three charged gate moves to avoid most of the tarmac holds. Minute by minute, from
+18:00 to 20:00 the greedy plan almost always has two or three aircraft waiting for a gate; AeroGate
+has at most one:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/media/chart_waiting_dark.svg">
+  <img alt="Step chart of aircraft waiting for a gate from 16:00 to 21:30: greedy rules peak at 4 at 20:54 and total 350 aircraft-minutes; AeroGate peaks at 2 at 17:04 and totals 104" src="docs/media/chart_waiting_light.svg">
+</picture>
+
+<details>
+<summary>The numbers</summary>
 
 | | AeroGate | Greedy rules |
 |---|---:|---:|
@@ -112,9 +129,11 @@ The Pearson evening below (83 flights, a thunderstorm, a jetbridge failure, a me
 | Minutes held on the tarmac | 70 | 320 |
 | Passenger-hours held (85% load factor) | 234 | 1,320 |
 | Score | 301.2 | 377.9 |
+| Aircraft-minutes waiting for a gate, incl. short stand waits | 104 | 350 |
 
-AeroGate spends three charged gate moves to avoid most of the tarmac holds. Every re-plan after the
-first one is proven optimal in at most 1.5 s.
+</details>
+
+Every re-plan after the first one is proven optimal in at most 1.5 s.
 
 ## The Pearson model and dashboard
 
